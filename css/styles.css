@@ -11,6 +11,8 @@ body {
 
 main {
     background-color: #e3d3d3;
+    position: relative;
+    top: 84px;
 }
 
 h1,
@@ -24,6 +26,8 @@ p {
 }
 
 header {
+    position: fixed;
+    z-index: 1;
     width: 100%;
     padding: 0 30px;
     background-color: #31231e;
@@ -236,7 +240,10 @@ iframe {
 }
 
 @media only screen and (max-width:480px) {
-
+    main {
+        top: 62px;
+    }
+    
     p {
         font-size: 1rem;
     }
