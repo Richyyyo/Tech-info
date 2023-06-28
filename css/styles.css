@@ -64,6 +64,10 @@ header {
     font-size: 1.1rem;
 }
 
+.mobile {
+    display: none;
+}
+
 
 img {
     width: 100%;
